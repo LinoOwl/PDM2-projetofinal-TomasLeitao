@@ -13,10 +13,36 @@
 
 
 # Setup 
+
 1-Abra o projeto no intellij IDEA
+
 2-A melhor maneira de Iniciar o projeto é clicando no gradle na aba a direita e seguir o caminho de projetofinal-Tasks-application-e doubleclick em run.
 mas pode iniciar pelo ficheiro Application.kt
-3-Use o postman para testar a API
 
-## Paths para testar a API
+3-Use o postman para testar a API, usando um JSON como body
+
+>body example
+
+{
+"name": "",
+"category": "",
+"price": "",
+"id": "" 
+}
+
+# Paths para testar a API
+
+
+## Encontrar um produto 
+
+é necessário um id de um item na base de dados
+GET "http://127.0.0.1:8080/get-product"
+
+>body example
+
+{ 
+"id": "676c4152fc3c5b528b4752c3"
+}
+outros ID-676c41a3fc3c5b528b4752c7;  676c41c6fc3c5b528b4752c8;  676c41ecfc3c5b528b4752ca.
+
 
