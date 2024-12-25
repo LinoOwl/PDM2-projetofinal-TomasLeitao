@@ -35,8 +35,9 @@ mas pode iniciar pelo ficheiro Application.kt
 
 ## Encontrar um produto 
 
-é necessário um id de um item na base de dados
 GET "http://127.0.0.1:8080/get-product"
+
+é necessário um id de um item na base de dados
 
 >body example
 
