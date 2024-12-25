@@ -45,7 +45,7 @@ GET "http://127.0.0.1:8080/get-product"
 "id": "676c4152fc3c5b528b4752c3"
 }
 
-outros ID-676c41a3fc3c5b528b4752c7;  676c41c6fc3c5b528b4752c8;  676c41ecfc3c5b528b4752ca.
+outros ID-676c41a3fc3c5b528b4752c7;     676c41c6fc3c5b528b4752c8;       676c41ecfc3c5b528b4752ca.
 
 
 ## Criar um produto 
@@ -79,7 +79,7 @@ POST "http://127.0.0.1:8080/create-update-product"
 "id": "676c4152fc3c5b528b4752c3"
 }
 
-outros ID-676c41a3fc3c5b528b4752c7;  676c41c6fc3c5b528b4752c8;  676c41ecfc3c5b528b4752ca.
+outros ID-676c41a3fc3c5b528b4752c7;      676c41c6fc3c5b528b4752c8;      676c41ecfc3c5b528b4752ca.
 
 use o mesmo ID para o produto que editou e tente fazer GET "http://127.0.0.1:8080/get-product" desse ID e ver que alterou.
 
@@ -96,7 +96,7 @@ POST "http://127.0.0.1:8080/delete-product"
 "id": "676c4152fc3c5b528b4752c3"
 }
 
-outros ID-676c41a3fc3c5b528b4752c7;  676c41c6fc3c5b528b4752c8;  676c41ecfc3c5b528b4752ca.
+outros ID-676c41a3fc3c5b528b4752c7;      676c41c6fc3c5b528b4752c8;      676c41ecfc3c5b528b4752ca.
 
 use o mesmo ID e tente GET "http://127.0.0.1:8080/get-product", o produto não deve mais existir
 
