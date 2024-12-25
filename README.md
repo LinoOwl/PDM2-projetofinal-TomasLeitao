@@ -100,4 +100,6 @@ outros ID-676c41a3fc3c5b528b4752c7;      676c41c6fc3c5b528b4752c8;      676c41ec
 
 use o mesmo ID e tente GET "http://127.0.0.1:8080/get-product", o produto não deve mais existir
 
+# Pode tentar eliminar ou editar ou ver produtos usando ID que não existem para testar se a API consegue responder de maneira adequada
+
 
