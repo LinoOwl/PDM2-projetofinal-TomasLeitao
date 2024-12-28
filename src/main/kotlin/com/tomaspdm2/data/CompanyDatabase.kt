@@ -20,8 +20,8 @@ private val products = database.getCollection<Product>("Products")
 //metodo que recebe o "produto" da base de dados através do ID
 
  fun createOrUpdateProductsById(product: Product): Boolean {
-    val employeeExists = products.findOneById(product.id) != null
-    return if (employeeExists) {
+    val productsExists = products.findOneById(product.id) != null
+    return if (productsExists) {
         products.updateOneById(product.id, product).wasAcknowledged()
     } else {
         product.id = ObjectId().toString()

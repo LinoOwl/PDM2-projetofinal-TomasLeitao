@@ -16,9 +16,9 @@ import io.ktor.server.routing.*
 fun Route.productRoutes() {
     route("/get-product") {
         get {
-            val employeeId = call.receive<ProductRequest>().id
-            val employee = getProductById(employeeId)
-            employee?.let {
+            val productId = call.receive<ProductRequest>().id
+            val product = getProductById(productId)
+            product?.let {
                 call.respond(
                     HttpStatusCode.OK,
                     SimpleResponse(true, "Product successfully retrieved", it)
