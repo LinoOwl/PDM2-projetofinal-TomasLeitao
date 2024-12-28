@@ -1,12 +1,12 @@
 # PDM2-projetofinal
 
-This project was created using the [Ktor Project Generator](https://start.ktor.io).
+Este projeto foi criado usando o [Ktor Project Generator](https://start.ktor.io).
 
-Here are some useful links to get you started:
+Aqui estão alguns links úteis para você começar:
 
 - [Ktor Documentation](https://ktor.io/docs/home.html)
 - [Ktor GitHub page](https://github.com/ktorio/ktor)
-- The [Ktor Slack chat](https://app.slack.com/client/T09229ZC6/C0A974TJ9). You'll need to [request an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) to join.
+- [Ktor Slack chat](https://app.slack.com/client/T09229ZC6/C0A974TJ9). You'll need to [request an invite](https://surveys.jetbrains.com/s3/kotlin-slack-sign-up) to join.
 - [MongoDB Documentation](https://www.mongodb.com/pt-br/docs/)
 
 ## tecnologias usadas no projeto
@@ -20,7 +20,7 @@ Here are some useful links to get you started:
 
 >Postman(para testar a API)
 
-## em caso de erro na conexão com a base mande um email para "tomas.leitao@my.istec.pt" para deixar a base de dados aberta a todos endereços IP
+## em caso de erro na conexão com a base de dados mande um email para "tomas.leitao@my.istec.pt" para deixar a base de dados aberta a todos endereços IP
 
 # Setup 
 
