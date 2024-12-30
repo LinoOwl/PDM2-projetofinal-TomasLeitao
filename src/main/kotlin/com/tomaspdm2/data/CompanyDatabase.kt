@@ -31,10 +31,10 @@ private val products = database.getCollection<Product>("Products")
 //metodo que cria um produto quando não tem ID ou altera um produto que já tenha um ID
 
 
- fun deleteProductById(employeeId: String): Boolean {
-    val product = products.findOne(Product::id eq employeeId)
-    product?.let { employee ->
-        return products.deleteOneById(employee.id).wasAcknowledged()
+ fun deleteProductById(productId: String): Boolean {
+    val product = products.findOne(Product::id eq productId)
+    product?.let { product1 ->
+        return products.deleteOneById(product1.id).wasAcknowledged()
     } ?: return false
 
 }
